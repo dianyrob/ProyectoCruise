@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test name="Amazon Login(failed)">
+    <classes>
+      <class name="testcases.AmazonLoginTest">
+        <methods>
+          <include name="LoginEmptyImageChars"/>
+          <include name="loadPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.AmazonLoginTest -->
+    </classes>
+  </test> <!-- Amazon Login(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

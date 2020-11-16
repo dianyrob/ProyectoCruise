@@ -15,6 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -244,6 +245,21 @@ public class TestBase {
 		CustomListeners.testReport.get().log(Status.INFO, "Wait and click on element : " + locator);
 	
 	}
+	
+	public void scrollToElement(String locator) {
+		WebElement element = null;
+		if (locator.endsWith("_CSS")) {
+			element=driver.findElement(By.cssSelector(OR.getProperty(locator)));
+		} else if (locator.endsWith("_XPATH")) {
+			element=driver.findElement(By.xpath(OR.getProperty(locator)));
+		} else if (locator.endsWith("_ID")) {
+			element=driver.findElement(By.id(OR.getProperty(locator)));
+		}
+		Actions action = new Actions(driver);
+		action.moveToElement(element);
+		action.perform();
+	}
+	
 	public void waitElement(String locator) {
 		WebElement element = null;
 		if (locator.endsWith("_CSS")) {

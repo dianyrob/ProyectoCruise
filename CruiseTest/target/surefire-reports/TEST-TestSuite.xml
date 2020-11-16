@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="35.812" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="40.519" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/DocsDiana/automation/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf93076521050201266.tmp"/>
+    <property name="classworlds.conf" value="/Users/DocsDiana/automation/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3161012585053136623.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/dianahernandez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,6 +62,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="SearchBahamasCruise" classname="testcases.SearchForCruises" time="17.952"/>
-  <testcase name="ChooseASail" classname="testcases.SearchForCruises" time="17.86"/>
+  <testcase name="SearchBahamasCruise" classname="testcases.SearchForCruises" time="16.648"/>
+  <testcase name="ChooseASail" classname="testcases.SearchForCruises" time="23.871"/>
 </testsuite>

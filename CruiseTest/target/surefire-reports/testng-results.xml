@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="35828" started-at="2020-11-16T00:22:35Z" finished-at="2020-11-16T00:23:10Z">
+  <suite name="Test Suite" duration-ms="40540" started-at="2020-11-16T03:52:16Z" finished-at="2020-11-16T03:52:57Z">
     <groups>
     </groups>
-    <test name="Bahamas cruises" duration-ms="35828" started-at="2020-11-16T00:22:35Z" finished-at="2020-11-16T00:23:10Z">
+    <test name="Bahamas cruises" duration-ms="40540" started-at="2020-11-16T03:52:16Z" finished-at="2020-11-16T03:52:57Z">
       <class name="testcases.SearchForCruises">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchForCruises@305b7c14]" name="setUp" is-config="true" duration-ms="3197" started-at="2020-11-15T18:22:31Z" finished-at="2020-11-15T18:22:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchForCruises@305b7c14]" name="setUp" is-config="true" duration-ms="4809" started-at="2020-11-15T21:52:11Z" finished-at="2020-11-15T21:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SearchBahamasCruise()[pri:1, instance:testcases.SearchForCruises@305b7c14]" name="SearchBahamasCruise" duration-ms="17953" started-at="2020-11-15T18:22:35Z" finished-at="2020-11-15T18:22:53Z">
+        <test-method status="PASS" signature="SearchBahamasCruise()[pri:1, instance:testcases.SearchForCruises@305b7c14]" name="SearchBahamasCruise" duration-ms="16651" started-at="2020-11-15T21:52:16Z" finished-at="2020-11-15T21:52:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchBahamasCruise -->
-        <test-method status="PASS" signature="ChooseASail()[pri:2, instance:testcases.SearchForCruises@305b7c14]" name="ChooseASail" duration-ms="17860" started-at="2020-11-15T18:22:53Z" finished-at="2020-11-15T18:23:10Z">
+        <test-method status="PASS" signature="ChooseASail()[pri:2, instance:testcases.SearchForCruises@305b7c14]" name="ChooseASail" duration-ms="23871" started-at="2020-11-15T21:52:33Z" finished-at="2020-11-15T21:52:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChooseASail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SearchForCruises@305b7c14]" name="tearDown" is-config="true" duration-ms="189" started-at="2020-11-15T18:23:11Z" finished-at="2020-11-15T18:23:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.SearchForCruises@305b7c14]" name="tearDown" is-config="true" duration-ms="268" started-at="2020-11-15T21:52:57Z" finished-at="2020-11-15T21:52:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

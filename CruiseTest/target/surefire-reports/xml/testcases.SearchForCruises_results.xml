@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="35.813">
+           time="40.522">
   <properties />
   
   
-            <testcase name="SearchBahamasCruise" time="17.953" classname="testcases.SearchForCruises" />
-                <testcase name="ChooseASail" time="17.860" classname="testcases.SearchForCruises" />
+            <testcase name="SearchBahamasCruise" time="16.651" classname="testcases.SearchForCruises" />
+                <testcase name="ChooseASail" time="23.871" classname="testcases.SearchForCruises" />
       
 </testsuite>

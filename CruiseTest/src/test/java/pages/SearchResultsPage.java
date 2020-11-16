@@ -24,12 +24,12 @@ public class SearchResultsPage extends TestBase{
 		Point posSlider= slider.getLocation();
 		
 		int posX= posSlider.getX();
-		System.out.println("x: "+posX);
 		int posY= posSlider.getY();
-		System.out.println("y: "+posY);
 		TestUtil.clickAt(900,180);
 		//new Actions(driver).dragAndDropBy(slider, selWidth/2,0).perform();
 		
 		CustomListeners.testReport.get().log(Status.INFO, "Moving slider : sliderMax_CSS");
 	}
+	
+	
 }
